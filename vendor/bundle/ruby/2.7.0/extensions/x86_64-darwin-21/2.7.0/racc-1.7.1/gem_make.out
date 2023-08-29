@@ -1,0 +1,21 @@
+current directory: /Users/rkumar6/Rails_projects_2023/message_me/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+/Users/rkumar6/.rvm/rubies/ruby-2.7.5/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/rkumar6/Rails_projects_2023/message_me/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230829-90239-12e5ajy sitelibdir\=./.gem.20230829-90239-12e5ajy clean
+
+current directory: /Users/rkumar6/Rails_projects_2023/message_me/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230829-90239-12e5ajy sitelibdir\=./.gem.20230829-90239-12e5ajy
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/rkumar6/Rails_projects_2023/message_me/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230829-90239-12e5ajy sitelibdir\=./.gem.20230829-90239-12e5ajy install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20230829-90239-12e5ajy/racc
+
+current directory: /Users/rkumar6/Rails_projects_2023/message_me/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230829-90239-12e5ajy sitelibdir\=./.gem.20230829-90239-12e5ajy clean

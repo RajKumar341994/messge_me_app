@@ -1,0 +1,38 @@
+current directory: /Users/rkumar6/Rails_projects_2023/message_me/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
+/Users/rkumar6/.rvm/rubies/ruby-2.7.5/bin/ruby extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /Users/rkumar6/Rails_projects_2023/message_me/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230829-90239-euqlbs sitelibdir\=./.gem.20230829-90239-euqlbs clean
+
+current directory: /Users/rkumar6/Rails_projects_2023/message_me/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230829-90239-euqlbs sitelibdir\=./.gem.20230829-90239-euqlbs
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+mini_ssl.c:220:27: warning: 'DTLSv1_method' is deprecated [-Wdeprecated-declarations]
+  conn->ctx = SSL_CTX_new(DTLSv1_method());
+                          ^
+/usr/local/opt/openssl@1.1/include/openssl/ssl.h:1905:1: note: 'DTLSv1_method' has been explicitly marked deprecated here
+DEPRECATEDIN_1_1_0(__owur const SSL_METHOD *DTLSv1_method(void)) /* DTLSv1.0 */
+^
+/usr/local/opt/openssl@1.1/include/openssl/opensslconf.h:160:34: note: expanded from macro 'DEPRECATEDIN_1_1_0'
+# define DEPRECATEDIN_1_1_0(f)   DECLARE_DEPRECATED(f)
+                                 ^
+/usr/local/opt/openssl@1.1/include/openssl/opensslconf.h:118:55: note: expanded from macro 'DECLARE_DEPRECATED'
+#   define DECLARE_DEPRECATED(f)    f __attribute__ ((deprecated));
+                                                      ^
+1 warning generated.
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/rkumar6/Rails_projects_2023/message_me/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230829-90239-euqlbs sitelibdir\=./.gem.20230829-90239-euqlbs install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20230829-90239-euqlbs/puma
+
+current directory: /Users/rkumar6/Rails_projects_2023/message_me/vendor/bundle/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230829-90239-euqlbs sitelibdir\=./.gem.20230829-90239-euqlbs clean
